@@ -147,7 +147,7 @@ nextBtn.addEventListener("touchstart", () => startHold(() => {
 }));
 nextBtn.addEventListener("touchend", stopHold);
 
-// === BACK BUTTON EVENTS ===
+
 backBtn.addEventListener("mousedown", () => startHold(() => {
   currentIndex--;
   if (currentIndex < 0) currentIndex = allPokemon.length - 1;
